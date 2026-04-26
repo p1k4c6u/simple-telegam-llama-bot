@@ -1,4 +1,4 @@
 import os
 
-TELEGRAM_BOT_TOKEN = read_from_environment("TELEGRAM_BOT_TOKEN")
-LLAMA_CLOUD_API_KEY = read_from_environment("LLAMA_CLOUD_API_KEY")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+LLAMA_CLOUD_API_KEY = os.getenv("LLAMA_CLOUD_API_KEY")
